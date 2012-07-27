@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.blogspot.doingenterprise</groupId>
+  <artifactId>schema-export</artifactId>
+  <version>2012_05_01</version>
+  <developers>
+    <developer>
+      <name>George Herolyants</name>
+    </developer>
+  </developers>
+  <url>http://doingenterprise.blogspot.co.at/2012_05_01_archive.html</url>
+  <dependencies>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>4.0.1.Final</version>
+    </dependency>
+  </dependencies>
+</project>
