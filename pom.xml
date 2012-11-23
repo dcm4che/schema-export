@@ -9,6 +9,13 @@
     </developer>
   </developers>
   <url>http://doingenterprise.blogspot.co.at/2012_05_01_archive.html</url>
+  <distributionManagement>
+    <repository>
+      <id>www.dcm4che.org</id>
+      <name>dcm4che Repository</name>
+      <url>scp://www.dcm4che.org:443/home/maven2</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.hibernate</groupId>
